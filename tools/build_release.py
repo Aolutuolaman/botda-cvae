@@ -10,7 +10,7 @@ from zipfile import ZipFile, ZIP_DEFLATED
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ROOT_FILES = ("README.md", "README.en.md", "requirements.txt",
+ROOT_FILES = ("README.md", "README.zh-CN.md", "requirements.txt",
               ".gitignore", ".gitattributes", "train.py", "generate.py")
 SOURCE_DIRS = ("data0", "tests", "tools", ".github")
 SUFFIXES = {".py", ".md", ".json", ".txt", ".yml", ".yaml"}
